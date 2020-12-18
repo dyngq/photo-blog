@@ -120,9 +120,9 @@ h1, h2, h3 {
 }
 
 .hovereffect .overlay-text {
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 	font-family: 'Crimson Text', sans-serif;
-	font-weight: 300;
+	font-weight: 360;
 	color: #000;
 	left: 50%;
 	position: absolute;
@@ -155,7 +155,7 @@ h1, h2, h3 {
 }
 
 .hovereffect:hover img {
-  opacity: 0;
+  opacity: 0.4;
   filter: alpha(opacity=0);
 }
 .page-nav {
