@@ -1,5 +1,10 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	background: url("https://img.dyngq.top/images/20201217211529.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size:cover
 }
 
 form {
@@ -78,6 +83,13 @@ h1, h2, h3 {
 	letter-spacing: 1.5px;
 }
 
+.nav- {
+	font-size: 0.85rem;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+
+
 .navbar-toggler {
 	border: 0;
 }
@@ -108,6 +120,8 @@ h1, h2, h3 {
   overflow: hidden;
   position: relative;
   text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
 }
 
 .hovereffect .overlay {
@@ -120,13 +134,15 @@ h1, h2, h3 {
 }
 
 .hovereffect .overlay-text {
-	font-size: 1.6rem;
+	background-color: #ffffff00;
+	border: 0px solid #fff;
+	font-size: 2rem;
 	font-family: 'Crimson Text', sans-serif;
 	font-weight: 360;
 	color: #000;
 	left: 50%;
 	position: absolute;
-	top: 50%;
+	top: 47%;
 	width: 100%;
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
@@ -137,9 +153,35 @@ h1, h2, h3 {
   transition: opacity 0.35s, transform 0.35s;
 }
 
+.hovereffect .overlay-text-2 {
+	background-color: #ffffff00;
+	border: 0px solid #fff;
+	font-size: 1.2rem;
+	font-family: 'Crimson Text', sans-serif;
+	font-weight: 300;
+	color: #000;
+	left: 50%;
+	position: absolute;
+	top: 60%;
+	width: 100%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
 .hovereffect:hover .overlay-text {
 	opacity: 1;
-  filter: alpha(opacity=100);
+    filter: alpha(opacity=100);
+    border: 0px solid #fff;
+}
+.hovereffect:hover .overlay-text-2 {
+	opacity: 1;
+    filter: alpha(opacity=100);
+    border: 0px solid #fff;
 }
 
 .hovereffect img {
@@ -155,10 +197,11 @@ h1, h2, h3 {
 }
 
 .hovereffect:hover img {
-  opacity: 0.4;
-  filter: alpha(opacity=0);
+  opacity: 0.3;
+  filter: alpha(opacity=30);
 }
 .page-nav {
+	/* background-color: #ffffff; */
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
@@ -168,5 +211,22 @@ h1, h2, h3 {
 	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
 	margin: 0 10px;
-	color: #000;
+	color: #000000;
+	background-color: #ffffff;
+	border: 1px solid #333;
+	PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+}
+.col-10 {
+	background-color: #ffffff00;
+	margin-right: 20px;
+}
+.title-text{
+	background-color: #ffffff50;
+}
+
+.col-md-8 {
+
+	background-color: #ffffff00;
+	
 }
