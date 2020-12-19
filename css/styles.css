@@ -218,15 +218,12 @@ h1, h2, h3 {
     PADDING-LEFT: 10px;
 }
 .col-10 {
-	background-color: #ffffff00;
 	margin-right: 20px;
 }
 .title-text{
-	background-color: #ffffff50;
+	background-color: #ffffff99;
+	border-radius: 20px;
 }
-
-.col-md-8 {
-
-	background-color: #ffffff00;
-	
+.border-radius{
+	border-radius: 30px;
 }
